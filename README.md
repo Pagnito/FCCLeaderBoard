@@ -1,4 +1,4 @@
 # FCCLeaderBoard
 Free Code Camp Leader Board
 
-![Alt text](FCCLeaderBoard/Screen Shot 2017-08-21 at 7.01.01 PM.png)
+![Alt text](https://raw.githubusercontent.com/Pagnito/FCCLeaderBoard/master/Screen%20Shot%202017-08-21%20at%207.01.01%20PM.png)
