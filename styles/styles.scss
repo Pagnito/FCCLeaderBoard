@@ -1,0 +1,63 @@
+$mainColor: #45a05a;
+body {
+  background-color: $mainColor;
+}
+.container {
+  margin-bottom: 40px;
+}
+#header {
+  margin: 50px 0 0px 0;
+  height: 150px;
+  display: flex;
+  background-color: lightgreen; /* Old browsers */
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'dosis', sans-serif;
+  border: 2px solid black;
+}
+.header {
+  flex-basis: 10em
+}
+.portraits {
+  width:30px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+td {
+  border: 2px solid #45a05a;
+}
+th {
+  border: 2px solid #45a05a;
+}
+table {
+  background-color: lightgreen  !important;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color:lightblue;
+}
+.centerdIndex {
+  text-align: center;
+}
+#buttonWrapper {
+  align-self: flex-end;
+  position: absolute;
+}
+.btn {
+  background-color: $mainColor;
+  transition: background-color .5s;
+}
+.btn:hover {
+  background-color: #1b5e20;
+}
+@media (max-width:600px) {
+  .header {
+    font-size: 50px;
+  }
+}
